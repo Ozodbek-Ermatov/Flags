@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.flag {
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .italy-flag {
+    width: 100%;
+    padding-bottom: 66.667%;
+    background-color: #F1F2F1;
+    position: relative;
+    margin: 0;
+  }
+  
+  .italy-flag::before {
+    content: ' ';
+    position: absolute;
+    background-color: #009246;
+    width: 33.33%;
+    height: 100%;
+  }
+  
+  .italy-flag::after {
+    content: ' ';
+    position: absolute;
+    background-color:  	#CE2B37;
+    width: 33.33%;
+    height: 100%;
+    right: 0;
+  }
+  .main {
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    border: solid 1px #000000;
+}
+
+.white { background-color: #ffffff; }
+.blue { background-color: #0000ff; }
+.red { background-color: #ff0000; }
+
+.one-div {
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(to bottom, 
+        #ffffff 33.3%, 
+        #0000ff 33.3% 66.6%, 
+        #ff0000 66.6%);
+    border: solid 1px #000000;
+}
+h3 {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+  }
+  
+  /* Main Style Stars from here  */
+  .flag1 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .afghanistan {
+    background: linear-gradient(
+      to right,
+      black 33%,
+      #be0000 33%,
+      #be0000 66%,
+      #009900 0
+    );
+  }
+  
+  .afghanistan__logo {
+    position: absolute;
+    inset: 0;
+    width: 170px;
+    margin: auto;
+  }
+  
+  .alg {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .algeria {
+    background: linear-gradient(to right, #00a652 50%, #fff 0);
+  }
+  .algeria__moon {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    transform: rotate(40deg) translate(8px, -8px);
+    height: 80px;
+    width: 80px;
+    box-shadow: -8px 8px 0 8px #ed1b24;
+    border-radius: 50%;
+  }
+  
+  .algeria__star {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    transform: rotate(20deg) translate(20px, -10px);
+    width: 50px;
+    height: 50px;
+    background-color: #ed1b24;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+  
+  .algeria__logo {
+    position: absolute;
+    inset: 0;
+    width: 140px;
+    margin: auto;
+  }
+  .and {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .andorra {
+    background: linear-gradient(
+      to right,
+      #3f2e8e 33%,
+      #f8e211 33%,
+      #f8e211 66%,
+      #db1f40 0
+    );
+  }
+  
+  .andorra__logo {
+    position: absolute;
+    inset: 0;
+    width: 90px;
+    margin: auto;
+  }
+  .afa {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .argentina {
+    background: linear-gradient(#8ad3f4 33%, #fff 33%, #fff 66%, #8ad3f4 0);
+  }
+  
+  .argentina__logo {
+    position: absolute;
+    inset: 0;
+    width: 55px;
+    margin: auto;
+  }
+  .arm {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .armenia {
+    background: linear-gradient(#be0026 33%, #3c5aa3 33%, #3c5aa3 66%, #e2ae58 0);
+  }
+  .aus {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .austria {
+    background: linear-gradient(#d72427 33%, #fff 33%, #fff 66%, #d72427 0);
+  }
+  .bah {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .bahamas {
+    background: linear-gradient(#01aef0 33%, #fef200 33%, #fef200 66%, #01aef0 0);
+  }
+  
+  .bahamas__triangle {
+    position: absolute;
+    border: 100px solid transparent;
+    border-left-color: #231f20;
+  }
+  .bahr {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .bahrain {
+    background-color: #ed1b24;
+  }
+  
+  .bahrain__triangle {
+    position: absolute;
+    top: -33px;
+    left: -10px;
+    background-color: rgb(255 255 255);
+    width: 110px;
+    height: 110px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-270deg);
+  }
+  
+  .bahrain__triangle:nth-child(2) {
+    top: 7px;
+  }
+  .bahrain__triangle:nth-child(3) {
+    top: 47px;
+  }
+  .bahrain__triangle:nth-child(4) {
+    top: 87px;
+  }
+  .bahrain__triangle:nth-child(5) {
+    top: 127px;
+  }
+  .bang {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .bangladesh {
+    background-color: #006a4c;
+    display: grid;
+    place-items: center;
+  }
+  
+  .bangladesh__circle {
+    position: absolute;
+    left: 25%;
+    width: 125px;
+    height: 125px;
+    border-radius: 1in;
+    background-color: #f4253f;
+  }
+  .bar {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .barbados {
+    background: linear-gradient(
+      to right,
+      #002180 33%,
+      #fec820 33%,
+      #fec820 67%,
+      #002180 0
+    );
+  }
+  
+  .barbados__logo {
+    position: absolute;
+    inset: 0;
+    width: 80px;
+    margin: auto;
+  }
+  .bel {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .belgium {
+    background: linear-gradient(
+      to right,
+      black 33%,
+      #fddb21 33%,
+      #fddb21 67%,
+      #ef303f 0
+    );
+  }
+  .ben {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .benin {
+    background: linear-gradient(#fcd20e 50%, #e90a29 0);
+  }
+  
+  .benin::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: #018850;
+  }
+  .fra {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .france {
+    background: linear-gradient(
+      to right,
+      #192f8e 33%,
+      #fff 33%,
+      #fff 67%,
+      #e01414 0
+    );
+  }
+  .fin {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .finland {
+    background: linear-gradient(#fff 75px, #233d7b 75px, #233d7b 125px, #fff 0);
+  }
+  
+  .finland::before {
+    position: absolute;
+    content: "";
+  
+    width: 50px;
+    height: 100%;
+    background-color: #233d7b;
+    left: 25%;
+  }
+  .ga {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .gabon {
+    background: linear-gradient(#009957 33%, #fccc00 33%, #fccc00 67%, #3473b7 0);
+  }
+  .por {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .portugal {
+    background: linear-gradient(to right, #060 40%, #ff0000 0);
+  }
+  
+  .portugal > img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+  }
+  .bra {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  .brazil {
+    background-color: #009c37;
+    display: grid;
+    place-items: center;
+  }
+  
+  .brazil__diamond {
+    background-color: #fde000;
+    width: 80%;
+    height: 70%;
+    clip-path: polygon(51% 0%, 100% 50%, 51% 100%, 0% 50%);
+    /* transform: skew(-10deg, -10deg) rotate(45deg); */
+  }
+  
+  .brazil__logo {
+    position: absolute;
+    inset: 0;
+    width: 80px;
+    margin: auto;
+  }
